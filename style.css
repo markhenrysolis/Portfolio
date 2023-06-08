@@ -1,0 +1,140 @@
+ body {
+ 	background-color: black;
+ 	color: whitesmoke;
+   font-family:sans-serif;
+   font-size: 13px;
+   line-height: 1.5em;
+   margin: 0em;+
+ }
+
+ .container{
+ 	width: 80%;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ #main-header{
+ 	background-color: green;
+ 	color: black;
+   font-size: 10px;
+ }
+
+ span{
+   color: orange;
+}
+
+ #navbar{
+ 	background-color: black;
+ }
+
+
+ #navbar ul{
+    padding: 0;
+    list-style: none;
+ }
+
+ #navbar li{
+    display: inline;
+ }
+
+ #navbar a{
+   color: darkgray;
+ 	text-decoration: none;
+ 	font-size: 15px;
+ 	padding-right: 15px;
+ }
+
+ #showcase{
+   background-image: url('scenery.jpeg');
+   background-size: cover;
+   min-height: 700px;
+   margin-bottom: 10px;
+ }
+
+ #showcase h1{
+ 	color: whitesmoke;
+ 	font-size: 15px;
+ 	line-height: 1.6em;
+ 	padding-top: 5px;
+ }
+
+ #main{
+ 	float: left;
+ 	width: 70%;  
+ 	padding: 15px;
+ 	box-sizing: border-box;
+ }
+
+ #sidebar{
+ 	float: right;
+ 	width: 30%;
+ 	background-color: green;
+ 	color: darkgray;
+ 	padding: 15px;
+   box-sizing: border-box;
+ }
+
+ #sidebar{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ #main-footer{
+ 	background: green;
+ 	color: darkgray;
+ 	text-align: center;
+   padding: 5px;
+   margin-top: 40px;
+ }
+
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card{
+   background-color: green;
+   width: 300px;
+   margin: 10px;
+   border-radius: 15px;
+   text-align: center;
+}
+
+.card-image{
+   background-color: whitesmoke;
+   text-align: center;
+   height: 250px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0;
+}
+
+.bike-1{
+   background-image: url('dartmoor 26 player.jpeg');
+}
+
+.bike-2{
+   background-image: url('dartmoor blackbird.jpeg');
+}
+
+.bike-3{
+   background-image: url('dartmoor primal.jpeg');
+}
+
+.card a{
+   background-color: black;
+   color: whitesmoke;
+   text-align: center;
+   display: block;
+   padding: 10px;
+   margin: 40px;
+}
+
+.card:hover{
+   background-color: orange;
+   cursor: pointer;
+   transform: scale(1.06);
+   transition: all 1s ease;
+}
+
